@@ -6,6 +6,8 @@ const passportLocalMongoose = require("passport-local-mongoose");
 //Note : Passport Local Mongoose automatically adds the field of username and 
 // password, whether we mention them or not.
 
+
+
 const userSchema = new Schema ({
     email : {
         type : String,
